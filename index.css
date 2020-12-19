@@ -1,6 +1,9 @@
+body{
+    background-color: wheat;
+}
 #myNav{
     /*color: rgb(194, 47, 138) !important;*/
-    height: 60px;
+    height: 70px;
     background-color:/* rgb(9, 5, 199)*/rgb(255, 174, 143) !important;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -11,18 +14,93 @@
 
 #landing{
     background-image: url("https://images.unsplash.com/photo-1497044725446-4156b475ea88?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-    
-    /*background-color: lightcoral;*/
+    background-color: rgb(255, 174, 143);
     background-repeat: no-repeat;
     background-position: initial;
     background-size: cover;
-    height:450px;
+    height:900px;
     width:100%;
+    text-align: center;
+}
+
+#myName{
+font-family: 'Monoton', cursive;
+font-size: 90px;
+padding-top: 150px;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.about-skills{
+    background-color: wheat;
+}
+
+#about-section p{
+padding:0 250px 50px;
+}
+
+.list-group-item{
+text-align: center;
+background-color: wheat;
+border: transparent;
+}
+
+.fab{
+    font-size: 5em;
+}
+
+.fa-html5{
+color: rgb(228,77,38);
+}
+
+.fa-css3-alt{
+ color: rgb(37,75,221);   
+}
+
+.fa-js{
+color: rgb(239,216,29);
+}
+
+.fa-bootstrap{
+color: rgb(137,19,252);
+}
+
+#portfolio-section{
+    margin: auto;
+    height: 400px;
+}
+
+#label{
+    color: cornsilk;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+.wrapper{
+    background-color: rgb(8, 25, 56);
+    height: 600px;
 }
 
 #contactForm{
-    width: 550px;
-    border:7px solid slategray;
+    
+    width: 750px;
+    border:7px solid slategrey;
     padding: 10px;
-    margin: 10px;
+    margin: 20px auto 100px;
+}
+
+footer{
+    background-color: wheat;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-github-square{
+    font-size: 6em;
 }
